@@ -1,0 +1,16 @@
+DESIGN:
+-FONTS (of some descriptor)
+LEVELS:
+-Standard levels will contain a random amount of enemies (within a certain bound)
+-Random chance for a room to contain more loot - treasure rooms
+  -more enemies/more dangerous enemies
+SCRIPTING-ISHNESS:
+-maybe our own scripting language? if not just use json or something
+  -allows for changing the buffs given to wands
+-some kind of terminal window for input
+SPELLS:
+-Spells you can cast that are enchantments for items (in general)
+  -could debuff casting if weapons/armour are enchanted
+ITEMS:
+-Start off with basic wand, dagger, maybe armour too?
+  -more items found throughout levels, 
