@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,3871 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314460622ed6b2b4fa6b1f793d3ad03b
+      internalID: 581911669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239809bfbb1b84f4ab6c0cc816117d96
+      internalID: 2087097210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5342d8fa7bece144862e2486b8e2cfb
+      internalID: 2096554545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d48bb0f42b4804a965ee330106eb35
+      internalID: -1003824232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff5c0f66341f2e40b7e2fc8108b3773
+      internalID: -1350011244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d078afc7d704bab40a06a194d16cda87
+      internalID: 1089856649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4e53257fbadc64593d8885c4815fba
+      internalID: -1314626491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741816c661124c04eb50da1f55e63125
+      internalID: -1039278210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835919710d6cbe04e8c197bff8288adc
+      internalID: 189450017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a2e70c69dd41a4ba431159d4871ff5
+      internalID: -1206826961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e7c6d4f9847f4f80585d761cb3b79
+      internalID: 1301656071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b367df85285b449f6eadc7dd3d9c7
+      internalID: 938546125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2bd4b9121a92945a9d3c80a4ef5e1e
+      internalID: -1483953961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc7f195d36859c4aa0e2ab0f065961c
+      internalID: 472246065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5886aee3490c41e4f9b62fd68b5bf2b5
+      internalID: -1448897586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa590e0036ff1a94c9c1848dec0cf635
+      internalID: -1857177901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27815cb4a5b8d014a872dbdf9be5a022
+      internalID: -1052753493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff56b82b9e9be947934b1ce5fdcad88
+      internalID: 1021856516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73101d63eb7e8cf42a077715533555c8
+      internalID: -1936519294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ecb357587d24643a9178e734c43a87
+      internalID: -586912831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c216f0b1c91cb5489fbd4b2ab0fca3c
+      internalID: -1861353970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c6731a2c80bb143b56601988c81873
+      internalID: 502470023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 210
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63ee1e9f0aab8b4e8776cf33a5e24ea
+      internalID: 818168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0e58c72f32e204e84d4d331a890c47
+      internalID: -1162903194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f9c9029fd77b54098e4ec16e6210ff
+      internalID: -639456538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c184387f8b0e31a46bbd8e32984eb3c5
+      internalID: 1565098051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e652afc5b9c328f45bd91ceae756d2c2
+      internalID: 979545746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9c7e13131c055419558577c1994b3b
+      internalID: -2076911531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_28
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9759b53b62ed0674ca206353d0519fd1
+      internalID: 395425666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5addd8809549f4197b4f641bab54d2
+      internalID: 980295928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89a1903b6c29054a8fc05e3bdbe0d79
+      internalID: -863190069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385d3585fa037dd47a72431d7ae34398
+      internalID: 1716400420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_32
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab0bf39c2421ca439a297b572567477
+      internalID: 399679935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2241cee92744a44a219d0f1fc5d831
+      internalID: 850984995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353defec0f7170240adbc8b3c8f9b08d
+      internalID: 182822771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552f4cb16f401964ea0d03ecfc7a461e
+      internalID: 1843253406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_36
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4a7bd51854e3e4bb3235cf14133e29
+      internalID: -1293797706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655f6ba1a54aacc488d58a2829fa64f1
+      internalID: -1980824802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_38
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20cdcbf3c554a1488059afa39423760
+      internalID: 950836950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd899fc697270434eb06ccb6775914df
+      internalID: 278451227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6684512c70d8e0e4699abe8500b444fa
+      internalID: 1784132775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c18d3878fb11f74a889258b2a7ecde8
+      internalID: 475092156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_42
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8744432a0fc88f40aec93c2a2f598f2
+      internalID: 1754207894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54418ea19913e244e97a575780bb669f
+      internalID: 415949798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_44
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412218a24896a2d41a54252ac17b5688
+      internalID: 147242289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_45
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 180
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381667c4550d455429d147f9dee288b9
+      internalID: -1486747755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c202afe2b49a74886ffc368ef38e65
+      internalID: -1882119651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_47
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57b2729fca15cf46a17d5ca9aedf483
+      internalID: 1951705195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc1b9a01d450a548a3b51a3936662ed
+      internalID: -2009863835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_49
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfd9d984bdcaa74ab769b50107b8b85
+      internalID: -291395489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542ff00634e287a48ae0850806f05bf8
+      internalID: 554912042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_51
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080b8fb564b294045803495afed18c5e
+      internalID: 175824480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055ea62aef2c9254db13933f6479a339
+      internalID: 229338473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4793dcf4cf5ec4ca24d8a6fdd98cb0
+      internalID: -2145322124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569565abea568894c814b68c5eca8344
+      internalID: 1728819174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_55
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd5af7b47feb194f81cba9aabd3223d
+      internalID: -1099081581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_56
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa30caa66e300f341b4f397c0a501905
+      internalID: -1970600304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_57
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de588c45018fb04ba92374e6a211c52
+      internalID: 1759994373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_58
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4017e0d6f01fd7a41996df79d106cd1b
+      internalID: 1129147659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_59
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd984433268e8c44b90cc7f077e9ee27
+      internalID: -1817003303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_60
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db6e5b1d1bc7ac4983a380ba4e688a5
+      internalID: -1245302590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_61
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da10780055bc31c4c9cdbc524468ba50
+      internalID: -1747947660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d65dbc373397640b8a39cb4180f95e
+      internalID: 1245296971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_63
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e7958103aa459448830e2e90fe9dde
+      internalID: -577958486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_64
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fb5251cb48d9d41ba4015607476551
+      internalID: -2002921242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_65
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f8d0a6c1f4dc943b8861e2c146d6ac
+      internalID: 1294762997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4541d2082a5091e4aa94e8b2b6c2a7e7
+      internalID: 478006367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_67
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebe41859e7ed0641826a46e4d1a5ced
+      internalID: 1820399973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_68
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 150
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f79748fd4f6ae48b05209da848dee8
+      internalID: 587641839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbefeaddf1727da47b5a0f3036f7b646
+      internalID: -159880184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_70
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912f1058ac5f86144889edf7a37cb1f1
+      internalID: 464860065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_71
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8b41b5b739acb40974da37ecb04b69
+      internalID: -533354689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_72
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaa0c58f6009ad4192dc0c608391aad
+      internalID: 1811498366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f9edf5741c9fd4eb1346e8876cb060
+      internalID: -1021393321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_74
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ead956c8d795fc4ba763f68c2c7265b
+      internalID: -672859082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_75
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5154d9ef97afce243b856a7f940dcf26
+      internalID: -343059210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_76
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e464a084afd2046a06d16bff5296ac
+      internalID: -1533417668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03b05c0ceda242499021348bdb51faf
+      internalID: -1761420835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_78
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349889d5ce5133140af45290cf7b46d5
+      internalID: 1111241631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_79
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba74069f601c7954f9e0ac97235f9a57
+      internalID: 640569520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_80
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5b78e20789b8c48ac8e8a3d2c7b81a
+      internalID: 1904105124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2d0899fc4f32646950693db79e6b41
+      internalID: 1602921084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_82
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4fb17dab722554f871968bbad5bd2e
+      internalID: 300847282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_83
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cd4ab5c2458ca47a4fee499f2fbd45
+      internalID: -660592582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_84
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d095eefc9a82f714daa9b47b02f35a05
+      internalID: -563382807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac0c1f4ea4f47b4cacc564eb6dbb7d9
+      internalID: -700949275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_86
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11ced997c1367c41ace0ad9270e5c6f
+      internalID: -1937110770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_87
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fc218dc73484c459c7e2c6f79b2aa9
+      internalID: -998049388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_88
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6774cbb524944a144a8bc53bbd92ad06
+      internalID: 326495443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_89
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed22630cd0794b4ea9415688bcc2360
+      internalID: 54491052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_90
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2053141fc6962f244a82ad861684d147
+      internalID: 1937862387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_91
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 120
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528ae3c348254724f9666d1aafde8295
+      internalID: -551559332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd51854eeee5b544095e568b16658e4c
+      internalID: 790667998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_93
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e275e1fdc02234e801b4716baf4cea
+      internalID: 1331982416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_94
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279932bb11bcedc44aeef97366932c91
+      internalID: -506151143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_95
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d286e4a4926c94fb4846f9d5944f98
+      internalID: 1494596144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_96
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a8804c3e5cbc840b63f23aeb196374
+      internalID: 1133591545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_97
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c36eaf34a3f81f4eb9e83205f8cf7e5
+      internalID: 1167832217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_98
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e249003d1d5fb4349a80ed4eb03f2036
+      internalID: -464119487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_99
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61794c7616eb74e4ba312c3ad74a33ee
+      internalID: -752036859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8721b6af40c95374b9c77ae9450f837f
+      internalID: 752910943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_101
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b688cdd4696477942986324d6298a4b4
+      internalID: 1528055405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_102
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d118bf7adf1be5b4c93f8708feeba3d6
+      internalID: -2035661977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_103
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c9a2803b0bbcf4d8b3d2341be1e2f8
+      internalID: 713691178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a991153fd4d3584a85b7a2deca20f77
+      internalID: -2018084373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_105
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5780f95a6c09f954abd74d1bbaecb1a0
+      internalID: 1873435286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_106
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09b75e983f548b4db7503a7adf94ec5
+      internalID: -2141968811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_107
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2e57d7bd728474586074037cab0f77
+      internalID: 900298526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c22a3e174e59247be010b8ee8da69e
+      internalID: -1520792204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_109
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0542bd6ad15244ba3023fb00237eb0
+      internalID: 644070614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_110
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5283d4b8ed7b84a42af4692abcf471d7
+      internalID: -1752552938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_111
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e90b4003d977a94c9fe67042e5fb7ae
+      internalID: -1441231216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_112
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234ad5c3541177241a5fcc9b0b490901
+      internalID: 1017543562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_113
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c6362e8c0fdfd438c5ba580379ea4c
+      internalID: -1037691599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_114
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 90
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f937eadd9a0b2409abd6db3c71ff89
+      internalID: 1359383845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648b8983680303744b6c15127a5a34f5
+      internalID: -2095171957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_116
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973d866aba98c1640916cafa3be695c5
+      internalID: -326859427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_117
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc0321f207839345a921ea339eebb1f
+      internalID: 455314526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_118
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c91fab332742274c91bb6458452ebfa
+      internalID: -141744438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_119
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9185ba69f762944997742958b9353b
+      internalID: 1299340915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_120
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c360e529c68538f49b14c484a895434f
+      internalID: -1439500913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_121
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5912d3d9aa6d4f64689c1ed3f2995513
+      internalID: -252650358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_122
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020e308e8312164d87606676a105a00
+      internalID: 1111857877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b4cb1b021fff8409f189250b350431
+      internalID: 597666103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_124
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8e62409fabab44c855be128b94a4a6
+      internalID: 1716986706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_125
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b751837335a146643a6d1e2c5c3ad6b5
+      internalID: 1981216918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_126
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e634defc0e47546b8eb20cd3fe208f
+      internalID: 822565976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_127
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c69f0da5181d04e902478eee6d2074
+      internalID: -1261261020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_128
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b080b898f17b5b49a010244d5285675
+      internalID: 2072470623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_129
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae63c8b8d0b6de642ac250e69d71f233
+      internalID: 1508533588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_130
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8fe81b2c2b4da4c95f1de064aaeddf
+      internalID: -1201047210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1e175785c4e114abdd6767d9628d7a
+      internalID: 1393638705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_132
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd497b79e16cc7b4ba6d194f56d23051
+      internalID: 919796085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_133
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dc8df08aeb86840af07a7a15274774
+      internalID: -443860750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_134
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bb12c809738ee4e916673f11966ecf
+      internalID: -1596491539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_135
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79d5eabc3800c14d8f07a6edeea4f20
+      internalID: -689097137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_136
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6795b1c31129a0b4384160305f06359e
+      internalID: -1782527915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_137
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 60
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a2633140c15274a9de764fa7eb7fd3
+      internalID: -822527439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7da57666964e804f8c1d559271fdc41
+      internalID: 2072840480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_139
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbe63d7bb5818a45a9ca23602d70f5c
+      internalID: 968882353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_140
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c75983040927984a93f60ab5a176546
+      internalID: -203116708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_141
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2f7ba165448af44a4479733557a623
+      internalID: -640636198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_142
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c12b00ad073964aa33c8b92d6376cd
+      internalID: -1242274130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_143
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3c98eaddda42f4d94c98d593c86419
+      internalID: 271783888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_144
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25b77c4c79ef864f8b8b371e49c2d31
+      internalID: 510425467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_145
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f749de7643a3d4e9e0470eb19aea92
+      internalID: -1838092114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_146
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ab254e475589a4198779513de510cf
+      internalID: 2134789991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_147
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a870a0881cce5449350b420f50d46f
+      internalID: 1667157331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_148
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dec8030a203c8a4281d364d189016a7
+      internalID: 93256510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_149
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e139f9e1c01af41845ed874cc31ed7
+      internalID: -1041917935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_150
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d4ddae3e2ea794fb06c6ab1963a53a
+      internalID: 809697117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_151
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d78ad3c4d0d374090307874eb29754
+      internalID: -1554098349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_152
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711c9219e55f189439228ae2bb004981
+      internalID: -1274176191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_153
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3500418e11b91884682433499a7f3ba8
+      internalID: -523807135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_154
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e818b09511c640844b6df29e84f6591d
+      internalID: -1397153973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_155
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210eb76dad1474548a65621392c7c05e
+      internalID: 2052771025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_156
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfcb6c717f8e2549a64e5c075429898
+      internalID: 1785197569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_157
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911664e27943fa242863f5333001b516
+      internalID: 2097475723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_158
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd1dc5ef98e1db48947531b67a72783
+      internalID: -1404071896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_159
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55fd3280c1638a458f19105d5d058d9
+      internalID: -1458188029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_160
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 30
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47986a7b9f37ade4b8209f67405560f1
+      internalID: 572960974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a96b80857735043b7a2cd069a06a2e
+      internalID: 2089019328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_162
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfd73bf57a6442499f4436c3492ccfc
+      internalID: -388346087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_163
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5967799dc7f98fd46bd64ce0bf719d01
+      internalID: -734826040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_164
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe04f48d19082ea43b32d955cd575178
+      internalID: 291817913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccfce214dda9ef48a4d43055b658914
+      internalID: -2112392442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_166
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ce15d87b265174796ef8de013431aa
+      internalID: 786575626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_167
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074c1af8d99fbfb47a010fed3ef4a02e
+      internalID: 1775287413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_168
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1835bef240114784598bb41716aa4e08
+      internalID: 627038593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_169
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208d509c566666e4e9289f2dbdc70769
+      internalID: 1323868370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_170
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7131369b903b7448368aaba6f7a796
+      internalID: -1847365598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_171
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc3e6a08b7a7644da67861a43e0c27e
+      internalID: 1520848005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_172
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd4a161cd3a2b04c9c1c6718bc74619
+      internalID: -922562051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_173
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecf3446bb2ca1e418fe2db7fec1e8dc
+      internalID: -1145744323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_174
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c2e5237daff324281bef8120c57949
+      internalID: -52164123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_175
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d903d2ad924e44cb5f629eb28ec39b
+      internalID: -255902579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_176
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24d8521b824f2d47a5a6c3562eb63e0
+      internalID: 1628111194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_177
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36068d1870fcc634d966eefb14f25d50
+      internalID: -560789064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_178
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e15a55751834d14886c626bfdfdce12
+      internalID: -1145338397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_179
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c76fd0c95f1354ba8c3bdd9c90ced4
+      internalID: 1039735963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_180
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16981357738ffb342a5ac5915bb99813
+      internalID: -819515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_181
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dfdb40fafa54b4b905a96ef2dbbec6
+      internalID: 844040641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_182
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa81a97ec61ebe44d9293a4216567f94
+      internalID: -1288477145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSetRooms+Symbols_183
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17089f73e7cd97d4a98535ac240ca1d9
+      internalID: 372846491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +3996,191 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tileSetRooms+Symbols_0: 581911669
+      tileSetRooms+Symbols_1: 2087097210
+      tileSetRooms+Symbols_10: 1301656071
+      tileSetRooms+Symbols_100: 752910943
+      tileSetRooms+Symbols_101: 1528055405
+      tileSetRooms+Symbols_102: -2035661977
+      tileSetRooms+Symbols_103: 713691178
+      tileSetRooms+Symbols_104: -2018084373
+      tileSetRooms+Symbols_105: 1873435286
+      tileSetRooms+Symbols_106: -2141968811
+      tileSetRooms+Symbols_107: 900298526
+      tileSetRooms+Symbols_108: -1520792204
+      tileSetRooms+Symbols_109: 644070614
+      tileSetRooms+Symbols_11: 938546125
+      tileSetRooms+Symbols_110: -1752552938
+      tileSetRooms+Symbols_111: -1441231216
+      tileSetRooms+Symbols_112: 1017543562
+      tileSetRooms+Symbols_113: -1037691599
+      tileSetRooms+Symbols_114: 1359383845
+      tileSetRooms+Symbols_115: -2095171957
+      tileSetRooms+Symbols_116: -326859427
+      tileSetRooms+Symbols_117: 455314526
+      tileSetRooms+Symbols_118: -141744438
+      tileSetRooms+Symbols_119: 1299340915
+      tileSetRooms+Symbols_12: -1483953961
+      tileSetRooms+Symbols_120: -1439500913
+      tileSetRooms+Symbols_121: -252650358
+      tileSetRooms+Symbols_122: 1111857877
+      tileSetRooms+Symbols_123: 597666103
+      tileSetRooms+Symbols_124: 1716986706
+      tileSetRooms+Symbols_125: 1981216918
+      tileSetRooms+Symbols_126: 822565976
+      tileSetRooms+Symbols_127: -1261261020
+      tileSetRooms+Symbols_128: 2072470623
+      tileSetRooms+Symbols_129: 1508533588
+      tileSetRooms+Symbols_13: 472246065
+      tileSetRooms+Symbols_130: -1201047210
+      tileSetRooms+Symbols_131: 1393638705
+      tileSetRooms+Symbols_132: 919796085
+      tileSetRooms+Symbols_133: -443860750
+      tileSetRooms+Symbols_134: -1596491539
+      tileSetRooms+Symbols_135: -689097137
+      tileSetRooms+Symbols_136: -1782527915
+      tileSetRooms+Symbols_137: -822527439
+      tileSetRooms+Symbols_138: 2072840480
+      tileSetRooms+Symbols_139: 968882353
+      tileSetRooms+Symbols_14: -1448897586
+      tileSetRooms+Symbols_140: -203116708
+      tileSetRooms+Symbols_141: -640636198
+      tileSetRooms+Symbols_142: -1242274130
+      tileSetRooms+Symbols_143: 271783888
+      tileSetRooms+Symbols_144: 510425467
+      tileSetRooms+Symbols_145: -1838092114
+      tileSetRooms+Symbols_146: 2134789991
+      tileSetRooms+Symbols_147: 1667157331
+      tileSetRooms+Symbols_148: 93256510
+      tileSetRooms+Symbols_149: -1041917935
+      tileSetRooms+Symbols_15: -1857177901
+      tileSetRooms+Symbols_150: 809697117
+      tileSetRooms+Symbols_151: -1554098349
+      tileSetRooms+Symbols_152: -1274176191
+      tileSetRooms+Symbols_153: -523807135
+      tileSetRooms+Symbols_154: -1397153973
+      tileSetRooms+Symbols_155: 2052771025
+      tileSetRooms+Symbols_156: 1785197569
+      tileSetRooms+Symbols_157: 2097475723
+      tileSetRooms+Symbols_158: -1404071896
+      tileSetRooms+Symbols_159: -1458188029
+      tileSetRooms+Symbols_16: -1052753493
+      tileSetRooms+Symbols_160: 572960974
+      tileSetRooms+Symbols_161: 2089019328
+      tileSetRooms+Symbols_162: -388346087
+      tileSetRooms+Symbols_163: -734826040
+      tileSetRooms+Symbols_164: 291817913
+      tileSetRooms+Symbols_165: -2112392442
+      tileSetRooms+Symbols_166: 786575626
+      tileSetRooms+Symbols_167: 1775287413
+      tileSetRooms+Symbols_168: 627038593
+      tileSetRooms+Symbols_169: 1323868370
+      tileSetRooms+Symbols_17: 1021856516
+      tileSetRooms+Symbols_170: -1847365598
+      tileSetRooms+Symbols_171: 1520848005
+      tileSetRooms+Symbols_172: -922562051
+      tileSetRooms+Symbols_173: -1145744323
+      tileSetRooms+Symbols_174: -52164123
+      tileSetRooms+Symbols_175: -255902579
+      tileSetRooms+Symbols_176: 1628111194
+      tileSetRooms+Symbols_177: -560789064
+      tileSetRooms+Symbols_178: -1145338397
+      tileSetRooms+Symbols_179: 1039735963
+      tileSetRooms+Symbols_18: -1936519294
+      tileSetRooms+Symbols_180: -819515
+      tileSetRooms+Symbols_181: 844040641
+      tileSetRooms+Symbols_182: -1288477145
+      tileSetRooms+Symbols_183: 372846491
+      tileSetRooms+Symbols_19: -586912831
+      tileSetRooms+Symbols_2: 2096554545
+      tileSetRooms+Symbols_20: -1861353970
+      tileSetRooms+Symbols_21: 502470023
+      tileSetRooms+Symbols_22: 818168
+      tileSetRooms+Symbols_23: -1162903194
+      tileSetRooms+Symbols_24: -639456538
+      tileSetRooms+Symbols_25: 1565098051
+      tileSetRooms+Symbols_26: 979545746
+      tileSetRooms+Symbols_27: -2076911531
+      tileSetRooms+Symbols_28: 395425666
+      tileSetRooms+Symbols_29: 980295928
+      tileSetRooms+Symbols_3: -1003824232
+      tileSetRooms+Symbols_30: -863190069
+      tileSetRooms+Symbols_31: 1716400420
+      tileSetRooms+Symbols_32: 399679935
+      tileSetRooms+Symbols_33: 850984995
+      tileSetRooms+Symbols_34: 182822771
+      tileSetRooms+Symbols_35: 1843253406
+      tileSetRooms+Symbols_36: -1293797706
+      tileSetRooms+Symbols_37: -1980824802
+      tileSetRooms+Symbols_38: 950836950
+      tileSetRooms+Symbols_39: 278451227
+      tileSetRooms+Symbols_4: -1350011244
+      tileSetRooms+Symbols_40: 1784132775
+      tileSetRooms+Symbols_41: 475092156
+      tileSetRooms+Symbols_42: 1754207894
+      tileSetRooms+Symbols_43: 415949798
+      tileSetRooms+Symbols_44: 147242289
+      tileSetRooms+Symbols_45: -1486747755
+      tileSetRooms+Symbols_46: -1882119651
+      tileSetRooms+Symbols_47: 1951705195
+      tileSetRooms+Symbols_48: -2009863835
+      tileSetRooms+Symbols_49: -291395489
+      tileSetRooms+Symbols_5: 1089856649
+      tileSetRooms+Symbols_50: 554912042
+      tileSetRooms+Symbols_51: 175824480
+      tileSetRooms+Symbols_52: 229338473
+      tileSetRooms+Symbols_53: -2145322124
+      tileSetRooms+Symbols_54: 1728819174
+      tileSetRooms+Symbols_55: -1099081581
+      tileSetRooms+Symbols_56: -1970600304
+      tileSetRooms+Symbols_57: 1759994373
+      tileSetRooms+Symbols_58: 1129147659
+      tileSetRooms+Symbols_59: -1817003303
+      tileSetRooms+Symbols_6: -1314626491
+      tileSetRooms+Symbols_60: -1245302590
+      tileSetRooms+Symbols_61: -1747947660
+      tileSetRooms+Symbols_62: 1245296971
+      tileSetRooms+Symbols_63: -577958486
+      tileSetRooms+Symbols_64: -2002921242
+      tileSetRooms+Symbols_65: 1294762997
+      tileSetRooms+Symbols_66: 478006367
+      tileSetRooms+Symbols_67: 1820399973
+      tileSetRooms+Symbols_68: 587641839
+      tileSetRooms+Symbols_69: -159880184
+      tileSetRooms+Symbols_7: -1039278210
+      tileSetRooms+Symbols_70: 464860065
+      tileSetRooms+Symbols_71: -533354689
+      tileSetRooms+Symbols_72: 1811498366
+      tileSetRooms+Symbols_73: -1021393321
+      tileSetRooms+Symbols_74: -672859082
+      tileSetRooms+Symbols_75: -343059210
+      tileSetRooms+Symbols_76: -1533417668
+      tileSetRooms+Symbols_77: -1761420835
+      tileSetRooms+Symbols_78: 1111241631
+      tileSetRooms+Symbols_79: 640569520
+      tileSetRooms+Symbols_8: 189450017
+      tileSetRooms+Symbols_80: 1904105124
+      tileSetRooms+Symbols_81: 1602921084
+      tileSetRooms+Symbols_82: 300847282
+      tileSetRooms+Symbols_83: -660592582
+      tileSetRooms+Symbols_84: -563382807
+      tileSetRooms+Symbols_85: -700949275
+      tileSetRooms+Symbols_86: -1937110770
+      tileSetRooms+Symbols_87: -998049388
+      tileSetRooms+Symbols_88: 326495443
+      tileSetRooms+Symbols_89: 54491052
+      tileSetRooms+Symbols_9: -1206826961
+      tileSetRooms+Symbols_90: 1937862387
+      tileSetRooms+Symbols_91: -551559332
+      tileSetRooms+Symbols_92: 790667998
+      tileSetRooms+Symbols_93: 1331982416
+      tileSetRooms+Symbols_94: -506151143
+      tileSetRooms+Symbols_95: 1494596144
+      tileSetRooms+Symbols_96: 1133591545
+      tileSetRooms+Symbols_97: 1167832217
+      tileSetRooms+Symbols_98: -464119487
+      tileSetRooms+Symbols_99: -752036859
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
