@@ -1,16 +1,30 @@
 DESIGN:
--FONTS (of some descriptor)
+-Font-based tilemap
+-heavily inspired by rogue
+
 LEVELS:
 -Standard levels will contain a random amount of enemies (within a certain bound)
+  -procedurally generated if possible - differing shapes and sizes
 -Random chance for a room to contain more loot - treasure rooms
   -more enemies/more dangerous enemies
+  
 SCRIPTING-ISHNESS:
--maybe our own scripting language? if not just use json or something
-  -allows for changing the buffs given to wands
+-scripts to give wands attributes from a given syntax
+?our own scripting language? if not just use json or something
 -some kind of terminal window for input
+
 SPELLS:
 -Spells you can cast that are enchantments for items (in general)
-  -could debuff casting if weapons/armour are enchanted
+  ?debuff casting if weapons/armour are enchanted
+
 ITEMS:
--Start off with basic wand, dagger, maybe armour too?
-  -more items found throughout levels, 
+-Start off with basic wand, dagger, armour
+  -more items found throughout levels within chests/dropped from enemies
+
+GENERAL FLOW OF CREATION:
+1. create player and give movement functionality
+  
+2. inventory/weapon system
+3. room generation
+4. enchantment system
+5. misc game polish
