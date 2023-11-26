@@ -169,9 +169,10 @@ public class playerScript : MonoBehaviour
         {
             dig(lastDir);
         }
-        scoreTxt.text = "Score: " + score.ToString();
-        healthTxt.text = "HP: " + hp.ToString();
-        dmgTxt.text = "DMG: " + dmg.ToString();
-        defTxt.text = "DEF: " + def.ToString();
+        
+        // scoreTxt.text = "Score: " + score.ToString();
+        // healthTxt.text = "HP: " + hp.ToString();
+        // dmgTxt.text = "DMG: " + dmg.ToString();
+        // defTxt.text = "DEF: " + def.ToString();
     }
 }
