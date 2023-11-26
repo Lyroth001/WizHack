@@ -11,45 +11,74 @@ public class playerScript : MonoBehaviour
     public int dmg = 1;
     public int def = 1;
     public Tilemap tileMapWalls;
+    public Vector2Int pos = new Vector2Int(0, 0);
+
+    public Cavegenerator grid;
     // Start is called before the first frame update
     void Start()
     {
-        
+        UpdatePos();
     }
 
     //wall detection
-    public void moveChar(Vector3 pos){
-        if (! tileMapWalls.GetComponent<TilemapCollider2D>().OverlapPoint(pos)){
-            this.transform.position = pos;
-        }
-
+    public void UpdatePos(){
+        this.transform.position = tileMapWalls.GetCellCenterWorld(new Vector3Int(pos.x, pos.y, 0));
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.UpArrow)){
-            Vector3 pos = this.transform.position;
-            pos.y += 0.3F;
-            moveChar(pos);
-            
+        if(Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if (grid.getTileArray()[pos.x, pos.y].up != null)
+            {
+                if (grid.getTileArray()[pos.x, pos.y].up.impassable == false)
+                {
+                    pos.y -= 1;
+                    UpdatePos();
+                }
+            }
+
         }
-        if(Input.GetKeyDown(KeyCode.DownArrow)){
-            Vector3 pos = this.transform.position;
-            pos.y -= 0.3F;
-            moveChar(pos);
+        if(Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            Debug.Log("keydown uparrow");
+            if (grid.getTileArray()[pos.x, pos.y].down != null)
+            {
+                Debug.Log(("notnull"));
+                if (grid.getTileArray()[pos.x, pos.y].down.impassable == false)
+                {
+                    Debug.Log("passable");
+                    pos.y++;
+                    UpdatePos();
+                }
+            }
 
         }
         if(Input.GetKeyDown(KeyCode.LeftArrow)){
-            Vector3 pos = this.transform.position;
-            pos.x-= 0.12F;
-            moveChar(pos);
+            if (grid.getTileArray()[pos.x, pos.y].left != null)
+            {
+                if (grid.getTileArray()[pos.x, pos.y].left.impassable == false)
+                {
+                    pos.x -= 1;
+                    UpdatePos();
+                }
+            }
 
+        
         }
-        if(Input.GetKeyDown(KeyCode.RightArrow)){
-            Vector3 pos = this.transform.position;
-            pos.x += 0.12F;
-            moveChar(pos);
+        if(Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (grid.getTileArray()[pos.x, pos.y].right != null)
+            {
+                if (grid.getTileArray()[pos.x, pos.y].right.impassable == false)
+                {
+                    pos.x++;
+                    UpdatePos();
+                }
+            }
+
+        
         }
     }
 }

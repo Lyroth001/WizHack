@@ -22,7 +22,11 @@ public class Cavegenerator : MonoBehaviour
     public bool[] mapWide;
     public Vector3Int[] coordGridWide;
     public static Tile[,] TileArray;
-    
+
+    public Tile[,] getTileArray()
+    {
+        return TileArray;
+    }
     private void Start()
     {
         TileArray = new Tile[width * 2, height];
