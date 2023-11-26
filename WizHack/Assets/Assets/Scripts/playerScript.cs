@@ -66,7 +66,7 @@ public class playerScript : MonoBehaviour
                     {
                         if (target.up.getContainedMonster() != null)
                         {
-                            target.containedMonster.damage(damage);
+                            target.up.containedMonster.damage(damage);
                             freeFlight = false;
                         }
                         else
@@ -90,7 +90,7 @@ public class playerScript : MonoBehaviour
                     {
                         if (target.right.getContainedMonster() != null)
                         {
-                            target.containedMonster.damage(damage);
+                            target.right.containedMonster.damage(damage);
                             freeFlight = false;
                         }
                         else
@@ -114,7 +114,7 @@ public class playerScript : MonoBehaviour
                     {
                         if (target.down.getContainedMonster() != null)
                         {
-                            target.containedMonster.damage(damage);
+                            target.down.containedMonster.damage(damage);
                             freeFlight = false;
                         }
                         else
@@ -138,7 +138,7 @@ public class playerScript : MonoBehaviour
                     {
                         if (target.left.getContainedMonster() != null)
                         {
-                            target.containedMonster.damage(damage);
+                            target.left.containedMonster.damage(damage);
                             freeFlight = false;
                         }
                         else
