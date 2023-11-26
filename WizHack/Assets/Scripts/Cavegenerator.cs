@@ -52,6 +52,7 @@ public class Cavegenerator : MonoBehaviour
         foreach (var posval in wallDict)
         {
             TileArray[(posval.pos.x * 2),(posval.pos.y)] = new Tile(posval.val,new Vector2Int(posval.pos.x*2,posval.pos.y));
+            Debug.Log(posval.val);
             TileArray[(posval.pos.x * 2 + 1), (posval.pos.y)] = new Tile(posval.val, new Vector2Int(posval.pos.x * 2 + 1, posval.pos.y));
             if (posval.val)
             {
@@ -65,24 +66,26 @@ public class Cavegenerator : MonoBehaviour
             if (tile.pos.x > 0)
             {
                 tile.left = TileArray[tile.pos.x - 1, tile.pos.y];
-                if (tile.pos.x < (2 * width - 1))
-                {
-                    tile.right = TileArray[tile.pos.x+1,tile.pos.y];
-                }
             }
-            
+            if (tile.pos.x < (2 * width - 1))
+            {
+                tile.right = TileArray[tile.pos.x+1,tile.pos.y];
+            }
+
+
 
             if (tile.pos.y > 0)
             {
-                tile.up = TileArray[tile.pos.x, tile.pos.y - 1];
-                if (tile.pos.y < (height - 1))
-                {
-                    tile.down = TileArray[tile.pos.x, tile.pos.y + 1];
-                }
-
+                tile.down = TileArray[tile.pos.x, tile.pos.y - 1];
             }
+            if (tile.pos.y < (height - 1))
+            {
+                tile.up = TileArray[tile.pos.x, tile.pos.y + 1];
+            }
+
         }
     }
+
     
     private bool[] Generate(int width, int height, int iterations = 4, int percentAreWalls = 40)
     {
