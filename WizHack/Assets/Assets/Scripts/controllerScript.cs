@@ -19,8 +19,10 @@ public class controllerScript : MonoBehaviour
     public Dictionary<char,List<object>> monsters = new Dictionary<char, List<object>>();
     public Monster Monster;
     public Cavegenerator Generator;
+    public Player thePlayer;
     List<char> options = new List<char>{'A','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
     private List<Monster> monList = new List<Monster>();
+    
     void Start()
     {
         //read all csvs
@@ -48,7 +50,7 @@ public class controllerScript : MonoBehaviour
                 }                
             }              
         }
-        for(int i = 0; i<31; i++)
+        for(int i = 0; i<8; i++)
         {
             placeMonster(getLocation());
         }
@@ -68,6 +70,7 @@ public class controllerScript : MonoBehaviour
         Monster thisMonster = Instantiate(Monster, this.transform);
         thisMonster.Init(Generator, location,tileMapWalls);
         thisMonster.UpdatePosition(location);
+        thisMonster.setPlayer(thePlayer);
         monList.Add(thisMonster);
 
     }
@@ -82,6 +85,8 @@ public class controllerScript : MonoBehaviour
         List<object> Selection = monsters[options[selected]];
         return Selection;
     }
+    
+    
     
     public Vector3Int getLocation()
     {

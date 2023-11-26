@@ -542,6 +542,7 @@ MonoBehaviour:
   tileMapWalls: {fileID: 106946230}
   Monster: {fileID: 1640192217365777229, guid: 45ba5a4f9c166c943a4aa9601f8b838e, type: 3}
   Generator: {fileID: 450004025}
+  thePlayer: {fileID: 1465386209}
 --- !u!4 &1444878038
 Transform:
   m_ObjectHideFlags: 0
@@ -631,7 +632,7 @@ MonoBehaviour:
   dmg: 5
   def: 1
   tileMapWalls: {fileID: 106946230}
-  myPointer: {fileID: 2171805010736898732, guid: 5d1e515fa1814d74f9b81995e5cc5133, type: 3}
+  myLooker: {fileID: 2171805010736898732, guid: 5d1e515fa1814d74f9b81995e5cc5133, type: 3}
   spellTrail: {fileID: 11400000, guid: 23453e1676214b14f828763903da0476, type: 2}
   grid: {fileID: 450004025}
 --- !u!212 &1465386210

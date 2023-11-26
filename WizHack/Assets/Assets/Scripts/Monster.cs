@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -21,6 +22,8 @@ public class Monster : MonoBehaviour
         public Sprite[] spriteArray;
         private Cavegenerator cavegenerator;
         private Tilemap tilemap;
+        private Player thePlayer;
+
         
 
         public void Init(Cavegenerator cavegenerator, Vector3Int location, Tilemap tilemap)
@@ -43,7 +46,11 @@ public class Monster : MonoBehaviour
         updateSprite(gameObject.GetComponent<SpriteRenderer>());
         UpdatePosition(location);
     }
-    
+
+    private void Update()
+    {
+        move();
+    }
 
     // Update is called once per frame
     public void UpdatePosition(Vector3Int pos)
@@ -57,6 +64,39 @@ public class Monster : MonoBehaviour
     {
         //GET DIST FROM PLAYER
         //MOVE TOWARDS IF WITHIN CERTAIN DIST
+        
+        Vector2Int conv = thePlayer.getLocation();
+        Vector3 toCheck = new Vector3(conv.x, conv.y, 0);
+        if (GetComponent<BoxCollider2D>().bounds.Contains(toCheck))
+        {
+            Debug.Log("truerheu");
+            Vector3 locationCalc = new Vector3(location.x, location.y, 0);
+            Vector3 movDir = locationCalc - toCheck;
+            Vector3Int mov = new Vector3Int();
+            if (movDir.x > 0)
+            {
+                location.x -= 1;
+            }
+            else
+            {
+                location.x += 1;
+            }
+
+            if (movDir.y > 0)
+            {
+                location.y -= 1;
+            }
+            else
+            {
+                location.x += 1;
+            }
+            UpdatePosition(location);
+        }
+    }
+
+    public void setPlayer(Player newPlayer)
+    {
+        thePlayer = newPlayer;
     }
 
     void updateSprite(SpriteRenderer spriteRenderer)
@@ -158,6 +198,7 @@ public class Monster : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    
 
     public void damage(int dmg)
     {
