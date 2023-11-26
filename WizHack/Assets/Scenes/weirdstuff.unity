@@ -384,7 +384,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -491,7 +491,7 @@ MonoBehaviour:
   width: 80
   height: 80
   walls: {fileID: 106946230}
-  solid: {fileID: 11400000, guid: 7650ec737e151204d94b1ac3c7a38e08, type: 2}
+  solid: {fileID: 11400000, guid: 2226d528c055e3f4c9cb1ede75716146, type: 2}
   coordGrid: []
   offX: 0
   offY: 0
