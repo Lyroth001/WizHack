@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public int dmg = 1;
     public int def = 1;
     public Tilemap tileMapWalls;
+    public looker myLooker;
     private Vector2Int pos = new Vector2Int(0, 0);
     //public TMP_Text healthTxt;
     //public TMP_Text scoreTxt;
@@ -199,10 +200,30 @@ public class Player : MonoBehaviour
         {
             dig(lastDir);
         }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            castSpell(lastDir, 2, 6);
+        }
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            spawnLooker();
+        }
         
         // scoreTxt.text = "Score: " + score.ToString();
         // healthTxt.text = "HP: " + hp.ToString();
         // dmgTxt.text = "DMG: " + dmg.ToString();
         // defTxt.text = "DEF: " + def.ToString();
+    }
+
+    void spawnLooker()
+    { 
+        looker thisLooker = Instantiate(myLooker, this.transform);
+        thisLooker.setTileMap(grid);
+        thisLooker.setLoc(pos);
+        thisLooker.setTileWalls(tileMapWalls);
+
+
     }
 }

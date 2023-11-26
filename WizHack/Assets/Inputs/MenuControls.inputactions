@@ -7,9 +7,9 @@
             "actions": [
                 {
                     "name": "AdvanceMenu",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "3927f189-88f3-4756-9679-137fe1cc3cd2",
-                    "expectedControlType": "Analog",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true

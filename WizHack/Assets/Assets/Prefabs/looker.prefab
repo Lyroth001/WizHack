@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 1578017483035872389}
   - component: {fileID: 2171805010736898732}
   m_Layer: 0
-  m_Name: Pointer
+  m_Name: looker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
