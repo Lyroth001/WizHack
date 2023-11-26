@@ -21,10 +21,7 @@ public class Cavegenerator : MonoBehaviour
     public int offY;
     public bool[] mapWide;
     public Vector3Int[] coordGridWide;
-    public Tile[,] TileArray;
-    
-    
-    
+    public static Tile[,] TileArray;
     
     private void Start()
     {
@@ -50,12 +47,35 @@ public class Cavegenerator : MonoBehaviour
         
         foreach (var posval in wallDict)
         {
-            TileArray[(posval.pos.x * 2),(posval.pos.y)] = new Tile(posval.val);
-            TileArray[(posval.pos.x * 2 + 1),(posval.pos.y)] = new Tile(posval.val);
+            TileArray[(posval.pos.x * 2),(posval.pos.y)] = new Tile(posval.val,new Vector2Int(posval.pos.x*2,posval.pos.y));
+            TileArray[(posval.pos.x * 2 + 1), (posval.pos.y)] = new Tile(posval.val, new Vector2Int(posval.pos.x * 2 + 1, posval.pos.y));
             if (posval.val)
             {
                 walls.SetTile(new Vector3Int(posval.pos.x*2 - offX, posval.pos.y - offY, 0), solid);
                 walls.SetTile(new Vector3Int((posval.pos.x*2)+1 - offX, posval.pos.y - offY, 0), solid);
+            }
+        }
+
+        foreach (var tile in TileArray)
+        {
+            if (tile.pos.x > 0)
+            {
+                tile.left = TileArray[tile.pos.x - 1, tile.pos.y];
+                if (tile.pos.x < (2 * width - 1))
+                {
+                    tile.right = TileArray[tile.pos.x+1,tile.pos.y];
+                }
+            }
+            
+
+            if (tile.pos.y > 0)
+            {
+                tile.up = TileArray[tile.pos.x, tile.pos.y - 1];
+                if (tile.pos.y < (height - 1))
+                {
+                    tile.down = TileArray[tile.pos.x, tile.pos.y + 1];
+                }
+
             }
         }
     }
