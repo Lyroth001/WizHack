@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using TMPro;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -14,10 +16,11 @@ public class controllerScript : MonoBehaviour
     public int currentMap = 0;
     public Tilemap tileMapWalls;
     public Dictionary<char,List<object>> monsters = new Dictionary<char, List<object>>();
+    List<char> options = new List<char>{'A','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
     void Start()
     {
         //read all csvs
-        //read monster csv
+        //read monster csv, infrastructure can be copied for items
         using(var reader = new StreamReader(@"Assets\Assets\Materials\monsters.csv"))
         {
             while (!reader.EndOfStream)
@@ -39,14 +42,10 @@ public class controllerScript : MonoBehaviour
                     }
 
                 }                
-            }
-            for(int i = 0; i < 6; i++)
-                {
-                    Debug.Log(monsters['a'][i]);
-                }
-                
+            }              
         }
-        }
+        placeMonster(new Vector3(3,3,0));
+    }
 
     // Update is called once per frame
     void Update()
@@ -54,9 +53,10 @@ public class controllerScript : MonoBehaviour
         
     }
 
-    Vector2 updateLocation(Vector3 location, Vector3 direction, Vector3 icon)
+    //selects monster and gives it location
+    void placeMonster(Vector3 location)
     {
-        return new Vector3(0,0);
-
+        //List<object> Selection = monsters[options[UnityEngine.Random.Range(0,options.Count-1)]];
+        List<object> Selection = monsters['a'];
     }
 }
