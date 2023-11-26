@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using TMPro;
 using Unity.Burst.Intrinsics;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class playerScript : MonoBehaviour
     public int dmg = 1;
     public int def = 1;
     public Tilemap tileMapWalls;
+    public pointer myPointer;
     private Vector2Int pos = new Vector2Int(0, 0);
     //public TMP_Text healthTxt;
     //public TMP_Text scoreTxt;
@@ -171,7 +173,8 @@ public class playerScript : MonoBehaviour
 
 
         }
-        if(Input.GetKeyDown(KeyCode.RightArrow))
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             if (grid.getTileArray()[pos.x, pos.y].right != null)
             {
@@ -198,10 +201,20 @@ public class playerScript : MonoBehaviour
         {
             dig(lastDir);
         }
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            
+        }
         
         // scoreTxt.text = "Score: " + score.ToString();
         // healthTxt.text = "HP: " + hp.ToString();
         // dmgTxt.text = "DMG: " + dmg.ToString();
         // defTxt.text = "DEF: " + def.ToString();
+    }
+
+    void spawnPointer(Vector3 loc)
+    {
+      //  newPoint = Instantiate(Pointer, this.transform);
     }
 }
