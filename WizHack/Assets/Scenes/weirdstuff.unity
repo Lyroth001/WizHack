@@ -659,6 +659,7 @@ MonoBehaviour:
   dmg: 5
   def: 1
   tileMapWalls: {fileID: 106946230}
+  spellTrail: {fileID: 11400000, guid: 596ce203ccb1bb644b894236951ad6f4, type: 2}
   grid: {fileID: 450004025}
 --- !u!212 &1465386210
 SpriteRenderer:
