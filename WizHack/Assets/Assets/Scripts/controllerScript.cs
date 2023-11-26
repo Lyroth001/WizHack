@@ -16,6 +16,7 @@ public class controllerScript : MonoBehaviour
     public int currentMap = 0;
     public Tilemap tileMapWalls;
     public Dictionary<char,List<object>> monsters = new Dictionary<char, List<object>>();
+    public GameObject Monster;
     List<char> options = new List<char>{'A','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
     void Start()
     {
@@ -56,7 +57,19 @@ public class controllerScript : MonoBehaviour
     //selects monster and gives it location
     void placeMonster(Vector3 location)
     {
-        //List<object> Selection = monsters[options[UnityEngine.Random.Range(0,options.Count-1)]];
+        //List<object> Selection = monsters[options[UnityEngine.Random.Range(0,options.Count-1)]]
+        Instantiate(Monster);
+    }
+
+    public List<object> getMonster()
+    {
         List<object> Selection = monsters['a'];
+        return Selection;
+    }
+
+    public Vector3 getLocation()
+    {
+        //This should give a random location pls but fornow will just return a set one, debugging lols XD
+        return new Vector3(3, 3, 0);
     }
 }

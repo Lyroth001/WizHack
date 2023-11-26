@@ -15,21 +15,18 @@ public class Monster : MonoBehaviour
         public int def;
         public int lootTable;
         public Vector3 location;
-    public Monster(char icon, string monName, int hp, int dmg, int def, int lootTable, Vector3 location)
-    {
-        this.icon = icon;
-        this.monName = monName;
-        this.hp = hp;
-        this.dmg = dmg;
-        this.def = def;
-        this.lootTable = lootTable;
-        this.location = location;
-    }
-    
+        public GameObject controller;
 
     void Start()
     {
-        
+        var data = controller.GetComponent<controllerScript>().getMonster();
+        this.icon = (char)data[0];
+        this.monName = (string)data[1];
+        this.hp = (int)data[2];
+        this.dmg = (int)data[3];
+        this.def = (int)data[4];
+        this.lootTable = (int)data[5];
+        this.location = controller.GetComponent<controllerScript>().getLocation();
     }
 
     // Update is called once per frame
