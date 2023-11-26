@@ -1,5 +1,3 @@
-icon,name,hp,dmg,def,lootTable
-
 a,Ant,1,1,5,0
 b,Bear,8,7,6,3
 c,Centaur,20,4,4,5

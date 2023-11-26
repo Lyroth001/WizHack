@@ -20,7 +20,7 @@ public class Monster : MonoBehaviour
     void Start()
     {
         var data = controller.GetComponent<controllerScript>().getMonster();
-        this.icon = (char)data[0];
+        this.icon = ((string)data[0])[0];
         this.monName = (string)data[1];
         this.hp = (int)data[2];
         this.dmg = (int)data[3];
