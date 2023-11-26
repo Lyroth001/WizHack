@@ -37,6 +37,58 @@ public class playerScript : MonoBehaviour
         UpdatePos();
     }
 
+    public bool dig(char dir)
+    {
+        switch (dir)
+        {
+            case 'u' :
+                if (grid.getTileArray()[pos.x, pos.y].up != null && grid.getTileArray()[pos.x, pos.y].up.impassable)
+                {
+                    Tile oldTile = grid.getTileArray()[pos.x, pos.y].up;
+                    tileMapWalls.SetTile(new Vector3Int(pos.x,pos.y+1,0),null);
+                    grid.setTile(new Tile(false,new Vector2Int(pos.x,pos.y+1),oldTile.up,oldTile.right,oldTile.down,oldTile.left));
+                    grid.updateTile(grid.getTileArray()[pos.x,pos.y].up.pos);
+                    return true;
+                }   
+                break;
+            case 'r' :
+                if (grid.getTileArray()[pos.x, pos.y].right != null && grid.getTileArray()[pos.x, pos.y].right.impassable)
+                {
+                    Tile oldTile = grid.getTileArray()[pos.x, pos.y].right;
+                    tileMapWalls.SetTile(new Vector3Int(pos.x+1,pos.y,0),null);
+                    grid.setTile(new Tile(false,new Vector2Int(pos.x+1,pos.y),oldTile.up,oldTile.right,oldTile.down,oldTile.left));
+                    grid.updateTile(grid.getTileArray()[pos.x,pos.y].right.pos);
+                    return true;
+                }
+                break;
+            case 'd' :
+                if (grid.getTileArray()[pos.x, pos.y].down != null && grid.getTileArray()[pos.x, pos.y].down.impassable)
+                {
+                    Tile oldTile = grid.getTileArray()[pos.x, pos.y].down;
+                    tileMapWalls.SetTile(new Vector3Int(pos.x,pos.y-1,0),null);
+                    grid.setTile(new Tile(false,new Vector2Int(pos.x,pos.y-1),oldTile.up,oldTile.right,oldTile.down,oldTile.left));
+                    grid.updateTile(grid.getTileArray()[pos.x,pos.y].down.pos);
+                    return true;
+                }
+                break;
+            case 'l' :
+                if (grid.getTileArray()[pos.x, pos.y].left != null && grid.getTileArray()[pos.x, pos.y].left.impassable)
+                {
+                    Tile oldTile = grid.getTileArray()[pos.x, pos.y].left;
+                    tileMapWalls.SetTile(new Vector3Int(pos.x-1,pos.y,0),null);
+                    grid.setTile(new Tile(false,new Vector2Int(pos.x-1,pos.y),oldTile.up,oldTile.right,oldTile.down,oldTile.left));
+                    grid.updateTile(grid.getTileArray()[pos.x,pos.y].left.pos);
+                    return true;
+                }
+                break;
+            default:
+                return false;
+            
+        }
+
+        return false;
+    }
+    
     //wall detection
     public void UpdatePos(){
         this.transform.position = tileMapWalls.GetCellCenterWorld(new Vector3Int(pos.x, pos.y, 0));
@@ -96,6 +148,14 @@ public class playerScript : MonoBehaviour
             }
 
         
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            dig('u');
+            dig('r');
+            dig('d');
+            dig('l');
         }
     }
 }

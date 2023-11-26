@@ -27,6 +27,16 @@ public class Cavegenerator : MonoBehaviour
     {
         return TileArray;
     }
+
+    public void updateTile(Vector2Int pos)
+    {
+        TileArray[pos.x,pos.y].updateNeighbours();
+    }
+
+    public void setTile(Tile tile)
+    {
+        TileArray[tile.pos.x, tile.pos.y] = tile;
+    }
     private void Start()
     {
         TileArray = new Tile[width * 2, height];

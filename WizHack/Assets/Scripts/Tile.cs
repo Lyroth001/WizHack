@@ -23,4 +23,29 @@ public class Tile
         this.left = left;
         
     }
+
+    public Monster getContainedMonster()
+    {
+        return containedMonster;
+    }
+
+    public void updateNeighbours()
+    {
+        if (up != null)
+        {
+            up.down = this;
+        }
+        if (right != null)
+        {
+            right.left = this;
+        }
+        if (down != null)
+        {
+            down.up = this;
+        }
+        if (left != null)
+        {
+            left.right = this;
+        }
+    }
 }
