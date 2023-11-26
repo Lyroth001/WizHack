@@ -1191,7 +1191,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1326,6 +1326,10 @@ MonoBehaviour:
   dmg: 1
   def: 1
   tileMapWalls: {fileID: 321014281}
+  healthTxt: {fileID: 0}
+  scoreTxt: {fileID: 0}
+  dmgTxt: {fileID: 0}
+  defTxt: {fileID: 0}
   grid: {fileID: 0}
 --- !u!65 &1832717860
 BoxCollider:

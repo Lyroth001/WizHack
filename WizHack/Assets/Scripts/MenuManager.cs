@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +21,15 @@ public class MenuManager : MonoBehaviour
     {
         LoadIntoLevelGUI(levelPath);
     }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            Debug.Log("Enter is pressed");
+        }
+    }
+
     // This loads the scene with the loadscenemode provided.
     private void LoadLevel(string levelPath, LoadSceneMode mode)
     {

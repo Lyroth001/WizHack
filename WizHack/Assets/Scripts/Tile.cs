@@ -29,6 +29,11 @@ public class Tile
         return containedMonster;
     }
 
+    public void setMonster(Monster monster)
+    {
+        containedMonster = monster;
+    }
+
     public void updateNeighbours()
     {
         if (up != null)
