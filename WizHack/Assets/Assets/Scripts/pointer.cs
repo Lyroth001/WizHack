@@ -15,4 +15,9 @@ public class pointer : MonoBehaviour
     {
         
     }
+
+    public void setTileMap(Cavegenerator input)
+    {
+        Cavegenerator tilemap = input;
+    }
 }

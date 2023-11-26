@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using TMPro;
 using Unity.Burst.Intrinsics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -13,7 +14,7 @@ public class playerScript : MonoBehaviour
     public int dmg = 1;
     public int def = 1;
     public Tilemap tileMapWalls;
-    public pointer myPointer;
+    public Pointer myPointer;
     private Vector2Int pos = new Vector2Int(0, 0);
 
     public TileBase spellTrail;
@@ -344,7 +345,9 @@ public class playerScript : MonoBehaviour
     }
 
     void spawnPointer(Vector3 loc)
-    {
-      //  newPoint = Instantiate(Pointer, this.transform);
+    { 
+        Pointer thisPoint = Instantiate(myPointer, this.transform);
+        //thisPoint.
+      
     }
 }
