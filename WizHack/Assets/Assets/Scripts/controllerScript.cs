@@ -58,15 +58,12 @@ public class controllerScript : MonoBehaviour
     void placeMonster(Vector3 location)
     {
         //List<object> Selection = monsters[options[UnityEngine.Random.Range(0,options.Count-1)]]
-        Instantiate(Monster);
+        Instantiate(Monster,this.transform);
     }
 
     public List<object> getMonster()
     {
         int selected = UnityEngine.Random.Range(0, options.Count);
-        Debug.Log(selected);
-        Debug.Log(options[selected]);
-        Debug.Log(monsters[options[selected]]);
         List<object> Selection = monsters[options[selected]];
         return Selection;
     }

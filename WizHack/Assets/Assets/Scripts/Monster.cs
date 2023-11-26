@@ -19,14 +19,14 @@ public class Monster : MonoBehaviour
 
     void Start()
     {
-        var data = controller.GetComponent<controllerScript>().getMonster();
+        var data = GetComponentInParent<controllerScript>().getMonster();
         this.icon = ((string)data[0])[0];
         this.monName = (string)data[1];
-        this.hp = (int)data[2];
-        this.dmg = (int)data[3];
-        this.def = (int)data[4];
-        this.lootTable = (int)data[5];
-        this.location = controller.GetComponent<controllerScript>().getLocation();
+        this.hp = System.Convert.ToInt32(data[2]);
+        this.dmg = System.Convert.ToInt32(data[3]);
+        this.def = System.Convert.ToInt32(data[4]);
+        this.lootTable = System.Convert.ToInt32(data[5]);
+        this.location = GetComponentInParent<controllerScript>().getLocation();
     }
 
     // Update is called once per frame
