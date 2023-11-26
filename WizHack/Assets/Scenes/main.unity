@@ -569,7 +569,6 @@ GameObject:
   - component: {fileID: 1465386206}
   - component: {fileID: 1465386210}
   - component: {fileID: 1465386209}
-  - component: {fileID: 1465386208}
   - component: {fileID: 1465386207}
   m_Layer: 0
   m_Name: Player
@@ -615,33 +614,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.12, y: 0.3, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1465386208
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465386205}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1465386209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,6 +631,8 @@ MonoBehaviour:
   dmg: 5
   def: 1
   tileMapWalls: {fileID: 106946230}
+  myPointer: {fileID: 2171805010736898732, guid: 5d1e515fa1814d74f9b81995e5cc5133, type: 3}
+  spellTrail: {fileID: 11400000, guid: 23453e1676214b14f828763903da0476, type: 2}
   grid: {fileID: 450004025}
 --- !u!212 &1465386210
 SpriteRenderer:
