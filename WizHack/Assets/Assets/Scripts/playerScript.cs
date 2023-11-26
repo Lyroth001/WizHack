@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.Burst.Intrinsics;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -12,6 +13,10 @@ public class playerScript : MonoBehaviour
     public int def = 1;
     public Tilemap tileMapWalls;
     private Vector2Int pos = new Vector2Int(0, 0);
+    public TMP_Text healthTxt;
+    public TMP_Text scoreTxt;
+    public TMP_Text dmgTxt;
+    public TMP_Text defTxt;
 
     public Cavegenerator grid;
     // Start is called before the first frame update
@@ -97,5 +102,9 @@ public class playerScript : MonoBehaviour
 
         
         }
+        scoreTxt.text = "Score: " + score.ToString();
+        healthTxt.text = "HP: " + hp.ToString();
+        dmgTxt.text = "DMG: " + dmg.ToString();
+        defTxt.text = "DEF: " + def.ToString();
     }
 }
