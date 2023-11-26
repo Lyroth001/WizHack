@@ -209,5 +209,6 @@ public class Monster : MonoBehaviour
         }
         hp -= dmg;
         checkHealth();
+        thePlayer.damage(dmg);
     }
 }

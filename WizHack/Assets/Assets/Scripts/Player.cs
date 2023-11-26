@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     private Vector2Int pos = new Vector2Int(0, 0);
 
     public TileBase spellTrail;
-    //public TMP_Text healthTxt;
+    public TMP_Text healthTxt;
     //public TMP_Text scoreTxt;
     //public TMP_Text dmgTxt;
     //public TMP_Text defTxt;
@@ -231,6 +231,10 @@ public class Player : MonoBehaviour
     //wall detection
     public void UpdatePos(){
         this.transform.position = tileMapWalls.GetCellCenterWorld(new Vector3Int(pos.x, pos.y, 0));
+        if (hp < 20)
+        {
+            hp++;
+        }
     }
 
     
@@ -343,7 +347,7 @@ public class Player : MonoBehaviour
         }
         
         // scoreTxt.text = "Score: " + score.ToString();
-        // healthTxt.text = "HP: " + hp.ToString();
+        healthTxt.text = "HP: " + hp.ToString();
         // dmgTxt.text = "DMG: " + dmg.ToString();
         // defTxt.text = "DEF: " + def.ToString();
     }
@@ -357,5 +361,24 @@ public class Player : MonoBehaviour
         thisLooker.setTileWalls(tileMapWalls);
 
 
+    }
+    void checkHealth()
+    {
+        if (hp <= 0)
+        {
+            //die
+            Destroy(gameObject);
+            Application.Quit();
+        }
+    }
+    public void damage(int dmg)
+    {
+        dmg -= def;
+        if (dmg <= 0)
+        {
+            dmg = 1;
+        }
+        hp -= dmg;
+        checkHealth();
     }
 }
