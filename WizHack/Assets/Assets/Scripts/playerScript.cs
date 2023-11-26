@@ -7,6 +7,9 @@ using UnityEngine.Tilemaps;
 public class playerScript : MonoBehaviour
 {
     public int hp = 10;
+    public int score = 0;
+    public int dmg = 1;
+    public int def = 1;
     public Tilemap tileMapWalls;
     // Start is called before the first frame update
     void Start()
