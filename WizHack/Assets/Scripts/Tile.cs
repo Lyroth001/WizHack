@@ -13,7 +13,7 @@ public class Tile
     
     public Monster containedMonster = null;
 
-    public Tile(bool impassable, Vector2Int pos, Tile up = null, Tile right = null, Tile down = null, Tile left = null)
+    public Tile(bool impassable, Vector2Int pos, Tile up = null, Tile right = null, Tile down = null, Tile left = null, Monster containedMonster = null)
     {
         this.pos = pos;
         this.impassable = impassable;
@@ -21,7 +21,7 @@ public class Tile
         this.right = right;
         this.down = down;
         this.left = left;
-        
+        this.containedMonster = containedMonster;
     }
 
     public Monster getContainedMonster()

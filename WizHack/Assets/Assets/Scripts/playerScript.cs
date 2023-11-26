@@ -53,7 +53,7 @@ public class playerScript : MonoBehaviour
                 {
                     Tile oldTile = grid.getTileArray()[pos.x, pos.y].up;
                     tileMapWalls.SetTile(new Vector3Int(pos.x,pos.y+1,0),null);
-                    grid.setTile(new Tile(false,new Vector2Int(pos.x,pos.y+1),oldTile.up,oldTile.right,oldTile.down,oldTile.left));
+                    grid.setTile(new Tile(false,new Vector2Int(pos.x,pos.y+1),oldTile.up,oldTile.right,oldTile.down,oldTile.left,oldTile.containedMonster));
                     grid.updateTile(grid.getTileArray()[pos.x,pos.y].up.pos);
                     return true;
                 }   
@@ -63,7 +63,7 @@ public class playerScript : MonoBehaviour
                 {
                     Tile oldTile = grid.getTileArray()[pos.x, pos.y].right;
                     tileMapWalls.SetTile(new Vector3Int(pos.x+1,pos.y,0),null);
-                    grid.setTile(new Tile(false,new Vector2Int(pos.x+1,pos.y),oldTile.up,oldTile.right,oldTile.down,oldTile.left));
+                    grid.setTile(new Tile(false,new Vector2Int(pos.x+1,pos.y),oldTile.up,oldTile.right,oldTile.down,oldTile.left,oldTile.containedMonster));
                     grid.updateTile(grid.getTileArray()[pos.x,pos.y].right.pos);
                     return true;
                 }
@@ -73,7 +73,7 @@ public class playerScript : MonoBehaviour
                 {
                     Tile oldTile = grid.getTileArray()[pos.x, pos.y].down;
                     tileMapWalls.SetTile(new Vector3Int(pos.x,pos.y-1,0),null);
-                    grid.setTile(new Tile(false,new Vector2Int(pos.x,pos.y-1),oldTile.up,oldTile.right,oldTile.down,oldTile.left));
+                    grid.setTile(new Tile(false,new Vector2Int(pos.x,pos.y-1),oldTile.up,oldTile.right,oldTile.down,oldTile.left,oldTile.containedMonster));
                     grid.updateTile(grid.getTileArray()[pos.x,pos.y].down.pos);
                     return true;
                 }
@@ -83,7 +83,7 @@ public class playerScript : MonoBehaviour
                 {
                     Tile oldTile = grid.getTileArray()[pos.x, pos.y].left;
                     tileMapWalls.SetTile(new Vector3Int(pos.x-1,pos.y,0),null);
-                    grid.setTile(new Tile(false,new Vector2Int(pos.x-1,pos.y),oldTile.up,oldTile.right,oldTile.down,oldTile.left));
+                    grid.setTile(new Tile(false,new Vector2Int(pos.x-1,pos.y),oldTile.up,oldTile.right,oldTile.down,oldTile.left,oldTile.containedMonster));
                     grid.updateTile(grid.getTileArray()[pos.x,pos.y].left.pos);
                     return true;
                 }
