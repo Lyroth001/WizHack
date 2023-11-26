@@ -48,7 +48,7 @@ public class controllerScript : MonoBehaviour
                 }                
             }              
         }
-        for(int i = 0; i<6; i++)
+        for(int i = 0; i<31; i++)
         {
             placeMonster(getLocation());
         }

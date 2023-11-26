@@ -133,3 +133,31 @@ MonoBehaviour:
   lootTable: 0
   location: {x: 0, y: 0, z: 0}
   controller: {fileID: 0}
+  spriteArray:
+  - {fileID: 2084370136, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 1846590683, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -1971413466, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 418862739, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -1582606131, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -1962447386, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 2044371342, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 838583156, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 205915054, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 1282586771, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -1092538306, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -1072875028, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 1509898067, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -947373, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 1162311650, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -1463267271, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 1350887958, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 739111148, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 410440219, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -443312405, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -434245585, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 947232499, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 1025544050, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 2034974107, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: -11716442, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 2101093607, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}
+  - {fileID: 997069918, guid: 6b7af812e7bab4747b1d5dea84eaf024, type: 3}

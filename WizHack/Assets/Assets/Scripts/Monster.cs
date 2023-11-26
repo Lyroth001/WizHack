@@ -18,8 +18,10 @@ public class Monster : MonoBehaviour
         public int lootTable;
         public Vector3Int location;
         public GameObject controller;
+        public Sprite[] spriteArray;
         private Cavegenerator cavegenerator;
         private Tilemap tilemap;
+        
 
         public void Init(Cavegenerator cavegenerator, Vector3Int location, Tilemap tilemap)
         {
@@ -38,7 +40,7 @@ public class Monster : MonoBehaviour
         this.dmg = System.Convert.ToInt32(data[3]);
         this.def = System.Convert.ToInt32(data[4]);
         this.lootTable = System.Convert.ToInt32(data[5]);
-        
+        updateSprite(gameObject.GetComponent<SpriteRenderer>());
         UpdatePosition(location);
     }
     
@@ -55,6 +57,96 @@ public class Monster : MonoBehaviour
     {
         //GET DIST FROM PLAYER
         //MOVE TOWARDS IF WITHIN CERTAIN DIST
+    }
+
+    void updateSprite(SpriteRenderer spriteRenderer)
+    {
+        switch (icon)
+        {
+            case 'A':
+                spriteRenderer.sprite = spriteArray[0];
+                break;
+            case 'a':
+                spriteRenderer.sprite = spriteArray[1];
+                break;
+            case 'b':
+                spriteRenderer.sprite = spriteArray[2];
+                break;
+            case 'c':
+                spriteRenderer.sprite = spriteArray[3];
+                break;
+            case 'd':
+                spriteRenderer.sprite = spriteArray[4];
+                break;
+            case 'e':
+                spriteRenderer.sprite = spriteArray[5];
+                break;
+            case 'f':
+                spriteRenderer.sprite = spriteArray[6];
+                break;
+            case 'g':
+                spriteRenderer.sprite = spriteArray[7];
+                break;
+            case 'h':
+                spriteRenderer.sprite = spriteArray[8];
+                break;
+            case 'i':
+                spriteRenderer.sprite = spriteArray[9];
+                break;
+            case 'j':
+                spriteRenderer.sprite = spriteArray[10];
+                break;
+            case 'k':
+                spriteRenderer.sprite = spriteArray[11];
+                break;
+            case 'l':
+                spriteRenderer.sprite = spriteArray[12];
+                break;
+            case 'm':
+                spriteRenderer.sprite = spriteArray[13];
+                break;
+            case 'n':
+                spriteRenderer.sprite = spriteArray[14];
+                break;
+            case 'o':
+                spriteRenderer.sprite = spriteArray[15];
+                break;
+            case 'p':
+                spriteRenderer.sprite = spriteArray[16];
+                break;
+            case 'q':
+                spriteRenderer.sprite = spriteArray[17];
+                break;
+            case 'r':
+                spriteRenderer.sprite = spriteArray[18];
+                break;
+            case 's':
+                spriteRenderer.sprite = spriteArray[19];
+                break;
+            case 't':
+                spriteRenderer.sprite = spriteArray[20];
+                break;
+            case 'u':
+                spriteRenderer.sprite = spriteArray[21];
+                break;
+            case 'v':
+                spriteRenderer.sprite = spriteArray[22];
+                break;
+            case 'w':
+                spriteRenderer.sprite = spriteArray[23];
+                break;
+            case 'x':
+                spriteRenderer.sprite = spriteArray[24];
+                break;
+            case 'y':
+                spriteRenderer.sprite = spriteArray[25];
+                break;
+            case 'z':
+                spriteRenderer.sprite = spriteArray[26];
+                break;
+                
+               
+        }
     }
 
     void checkHealth()
