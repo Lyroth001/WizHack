@@ -5,7 +5,7 @@ using Unity.Burst.Intrinsics;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class playerScript : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public int hp = 10;
     public int score = 0;
