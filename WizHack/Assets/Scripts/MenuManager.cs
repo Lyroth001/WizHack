@@ -35,6 +35,7 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(levelPath, mode);
     }
+
     // This loads the given scene with the gui ontop.
     private void LoadIntoLevelGUI(string levelPath)
     {

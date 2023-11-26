@@ -13,15 +13,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "Backup",
-                    "type": "Button",
-                    "id": "ae6c99e8-65b7-482a-9b96-25820f00e714",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -29,7 +20,7 @@
                     "name": "",
                     "id": "81bce618-00b9-41a4-890d-508755835088",
                     "path": "<Keyboard>/enter",
-                    "interactions": "Press",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "AdvanceMenu",
@@ -39,22 +30,11 @@
                 {
                     "name": "",
                     "id": "f0473987-e0cd-442c-937e-ac700bcb27f6",
-                    "path": "<Keyboard>/anyKey",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "AdvanceMenu",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "0567cc29-8cb9-44e9-94eb-2e8ee09a4d62",
                     "path": "<Keyboard>/numpadEnter",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Backup",
+                    "action": "AdvanceMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -860,19 +860,7 @@ MonoBehaviour:
     m_ActionId: 3927f189-88f3-4756-9679-137fe1cc3cd2
     m_ActionName: Navigate/AdvanceMenu[/Keyboard/enter]
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1826997924}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: LoadLevelGUI
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Assets/Scenes/weirdstuff.unity
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: ae6c99e8-65b7-482a-9b96-25820f00e714
     m_ActionName: Navigate/Backup[/Keyboard/numpadEnter]
   m_NeverAutoSwitchControlSchemes: 0

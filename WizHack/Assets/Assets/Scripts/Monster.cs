@@ -21,16 +21,17 @@ public class Monster : MonoBehaviour
         public Sprite[] spriteArray;
         private Cavegenerator cavegenerator;
         private Tilemap tilemap;
+    private BoxCollider2D searchBoundary;
         
+    public void Init(Cavegenerator cavegenerator, Vector3Int location, Tilemap tilemap)
+    {
+        this.cavegenerator = cavegenerator;
+        this.location = location;
+        this.tilemap = tilemap;
+         
+        UpdatePosition(location);
+    }
 
-        public void Init(Cavegenerator cavegenerator, Vector3Int location, Tilemap tilemap)
-        {
-            this.cavegenerator = cavegenerator;
-            this.location = location;
-            this.tilemap = tilemap;
-            
-            UpdatePosition(location);
-        }
     void Start()
     {
         var data = GetComponentInParent<controllerScript>().getMonster();
@@ -42,6 +43,8 @@ public class Monster : MonoBehaviour
         this.lootTable = System.Convert.ToInt32(data[5]);
         updateSprite(gameObject.GetComponent<SpriteRenderer>());
         UpdatePosition(location);
+
+        searchBoundary = GetComponent<BoxCollider2D>();
     }
     
 
@@ -57,7 +60,16 @@ public class Monster : MonoBehaviour
     {
         //GET DIST FROM PLAYER
         //MOVE TOWARDS IF WITHIN CERTAIN DIST
+
+        //square around monster - if player is within
+        //the square then call a method that calculates
+        //the next movement the monster has to make.
+
+        //searchBoundary.bounds.Contains();
+
+
     }
+
 
     void updateSprite(SpriteRenderer spriteRenderer)
     {
