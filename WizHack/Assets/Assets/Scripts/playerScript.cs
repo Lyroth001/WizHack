@@ -13,10 +13,10 @@ public class playerScript : MonoBehaviour
     public int def = 1;
     public Tilemap tileMapWalls;
     private Vector2Int pos = new Vector2Int(0, 0);
-    public TMP_Text healthTxt;
-    public TMP_Text scoreTxt;
-    public TMP_Text dmgTxt;
-    public TMP_Text defTxt;
+    //public TMP_Text healthTxt;
+    //public TMP_Text scoreTxt;
+    //public TMP_Text dmgTxt;
+    //public TMP_Text defTxt;
 
     public Cavegenerator grid;
 
@@ -198,9 +198,9 @@ public class playerScript : MonoBehaviour
         {
             dig(lastDir);
         }
-        scoreTxt.text = "Score: " + score.ToString();
-        healthTxt.text = "HP: " + hp.ToString();
-        dmgTxt.text = "DMG: " + dmg.ToString();
-        defTxt.text = "DEF: " + def.ToString();
+        //coreTxt.text = "Score: " + score.ToString();
+        //healthTxt.text = "HP: " + hp.ToString();
+        //dmgTxt.text = "DMG: " + dmg.ToString();
+        //defTxt.text = "DEF: " + def.ToString();
     }
 }

@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unity.Burst.Intrinsics;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UIElements;
 
 public class Monster : MonoBehaviour
 {
@@ -14,9 +16,19 @@ public class Monster : MonoBehaviour
         public int dmg;
         public int def;
         public int lootTable;
-        public Vector3 location;
+        public Vector3Int location;
         public GameObject controller;
+        private Cavegenerator cavegenerator;
+        private Tilemap tilemap;
 
+        public void Init(Cavegenerator cavegenerator, Vector3Int location, Tilemap tilemap)
+        {
+            this.cavegenerator = cavegenerator;
+            this.location = location;
+            this.tilemap = tilemap;
+            
+            UpdatePosition(location);
+        }
     void Start()
     {
         var data = GetComponentInParent<controllerScript>().getMonster();
@@ -26,13 +38,17 @@ public class Monster : MonoBehaviour
         this.dmg = System.Convert.ToInt32(data[3]);
         this.def = System.Convert.ToInt32(data[4]);
         this.lootTable = System.Convert.ToInt32(data[5]);
-        this.location = GetComponentInParent<controllerScript>().getLocation();
+        
+        UpdatePosition(location);
     }
+    
 
     // Update is called once per frame
-    void Update()
+    public void UpdatePosition(Vector3Int pos)
     {
-        
+        cavegenerator.getTileArray()[location.x,location.y].setMonster(null);
+        cavegenerator.getTileArray()[pos.x,pos.y].setMonster(this);
+        this.transform.position = tilemap.GetCellCenterWorld(pos);
     }
 
     void move()
