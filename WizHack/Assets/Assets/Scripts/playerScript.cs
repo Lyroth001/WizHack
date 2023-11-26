@@ -15,6 +15,8 @@ public class playerScript : MonoBehaviour
     public Tilemap tileMapWalls;
     public pointer myPointer;
     private Vector2Int pos = new Vector2Int(0, 0);
+
+    public TileBase spellTrail;
     //public TMP_Text healthTxt;
     //public TMP_Text scoreTxt;
     //public TMP_Text dmgTxt;
@@ -46,6 +48,129 @@ public class playerScript : MonoBehaviour
         UpdatePos();
     }
 
+    public void castSpell(char dir, int damage, int range)
+    {
+        Tile target = grid.getTileArray()[pos.x, pos.y];
+        bool freeFlight = true;
+        int timeOfFlight = 0;
+        List<Tile> trailList = new List<Tile>();
+        switch (dir)
+        {
+            case 'u' :
+                while (freeFlight == true && timeOfFlight < range)
+                {
+                    trailList.Add(target);
+                    tileMapWalls.SetTile(new Vector3Int(target.pos.x,target.pos.y,0), spellTrail);
+                    if (target.up != null && ! target.up.impassable)
+                    {
+                        if (target.up.getContainedMonster() != null)
+                        {
+                            target.containedMonster.damage(damage);
+                            freeFlight = false;
+                        }
+                        else
+                        {
+                            target = target.up;
+                            timeOfFlight++;
+                        }
+                    }
+                    else
+                    {
+                        freeFlight = false;
+                    }
+                }
+                break;
+            case 'r' :
+                while (freeFlight == true && timeOfFlight < range)
+                {
+                    trailList.Add(target);
+                    tileMapWalls.SetTile(new Vector3Int(target.pos.x,target.pos.y,0), spellTrail);
+                    if (target.right != null && ! target.right.impassable)
+                    {
+                        if (target.right.getContainedMonster() != null)
+                        {
+                            target.containedMonster.damage(damage);
+                            freeFlight = false;
+                        }
+                        else
+                        {
+                            target = target.right;
+                            timeOfFlight++;
+                        }
+                    }
+                    else
+                    {
+                        freeFlight = false;
+                    }
+                }
+                break;
+            case 'd' :
+                while (freeFlight == true && timeOfFlight < range)
+                {
+                    trailList.Add(target);
+                    tileMapWalls.SetTile(new Vector3Int(target.pos.x,target.pos.y,0), spellTrail);
+                    if (target.down != null && ! target.down.impassable)
+                    {
+                        if (target.down.getContainedMonster() != null)
+                        {
+                            target.containedMonster.damage(damage);
+                            freeFlight = false;
+                        }
+                        else
+                        {
+                            target = target.down;
+                            timeOfFlight++;
+                        }
+                    }
+                    else
+                    {
+                        freeFlight = false;
+                    }
+                }
+                break;
+            case 'l' :
+                while (freeFlight == true && timeOfFlight < range)
+                {
+                    tileMapWalls.SetTile(new Vector3Int(target.pos.x,target.pos.y,0), spellTrail);
+                    trailList.Add(target);
+                    if (target.left != null && ! target.left.impassable)
+                    {
+                        if (target.left.getContainedMonster() != null)
+                        {
+                            target.containedMonster.damage(damage);
+                            freeFlight = false;
+                        }
+                        else
+                        {
+                            target = target.left;
+                            timeOfFlight++;
+                        }
+                    }
+                    else
+                    {
+                        freeFlight = false;
+                    }
+                }
+                break;
+        }
+
+        StartCoroutine(cleanTrail(trailList));
+
+        // foreach (Tile tile in trailList)
+        // {
+        //     tileMapWalls.SetTile(new Vector3Int(tile.pos.x,tile.pos.y,0), null);
+        // }
+    }
+
+    IEnumerator cleanTrail(List<Tile> list)
+    {
+        foreach (Tile tile in list)
+        {
+            yield return new WaitForSeconds(0.02F);
+            tileMapWalls.SetTile(new Vector3Int(tile.pos.x,tile.pos.y,0), null);
+        }
+    }
+    
     public bool dig(char dir)
     {
         switch (dir)
@@ -200,6 +325,11 @@ public class playerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             dig(lastDir);
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            castSpell(lastDir, 2, 6);
         }
 
         if (Input.GetKeyDown(KeyCode.I))
