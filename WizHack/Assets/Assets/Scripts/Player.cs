@@ -7,14 +7,14 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class playerScript : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public int hp = 10;
     public int score = 0;
     public int dmg = 1;
     public int def = 1;
     public Tilemap tileMapWalls;
-    public Pointer myPointer;
+    public looker myLooker;
     private Vector2Int pos = new Vector2Int(0, 0);
 
     public TileBase spellTrail;
@@ -335,7 +335,7 @@ public class playerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.I))
         {
-            
+            spawnLooker();
         }
         
         // scoreTxt.text = "Score: " + score.ToString();
@@ -344,10 +344,13 @@ public class playerScript : MonoBehaviour
         // defTxt.text = "DEF: " + def.ToString();
     }
 
-    void spawnPointer(Vector3 loc)
+    void spawnLooker()
     { 
-        Pointer thisPoint = Instantiate(myPointer, this.transform);
-        //thisPoint.
-      
+        looker thisLooker = Instantiate(myLooker, this.transform);
+        thisLooker.setTileMap(grid);
+        thisLooker.setLoc(pos);
+        thisLooker.setTileWalls(tileMapWalls);
+
+
     }
 }
