@@ -99,6 +99,8 @@ public class playerScript : MonoBehaviour
         this.transform.position = tileMapWalls.GetCellCenterWorld(new Vector3Int(pos.x, pos.y, 0));
     }
 
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -108,34 +110,54 @@ public class playerScript : MonoBehaviour
             {
                 if (grid.getTileArray()[pos.x, pos.y].up.impassable == false)
                 {
-                    pos.y ++;
-                    UpdatePos();
+                    if (grid.getTileArray()[pos.x, pos.y].up.containedMonster)
+                    {
+                        grid.getTileArray()[pos.x, pos.y].up.containedMonster.damage(dmg);
+                    }
+                    else
+                    {
+                        pos.y++;
+                        UpdatePos();
+                    }
                 }
             }
 
         }
+        
         if(Input.GetKeyDown(KeyCode.DownArrow))
         {
-
             if (grid.getTileArray()[pos.x, pos.y].down != null)
             {
-
                 if (grid.getTileArray()[pos.x, pos.y].down.impassable == false)
                 {
-
-                    pos.y -=1;
-                    UpdatePos();
+                    if (grid.getTileArray()[pos.x, pos.y].down.containedMonster)
+                    {
+                        grid.getTileArray()[pos.x, pos.y].down.containedMonster.damage(dmg);
+                    }
+                    else
+                    {
+                        pos.y -= 1;
+                        UpdatePos();
+                    }
                 }
             }
 
         }
+        
         if(Input.GetKeyDown(KeyCode.LeftArrow)){
             if (grid.getTileArray()[pos.x, pos.y].left != null)
             {
                 if (grid.getTileArray()[pos.x, pos.y].left.impassable == false)
                 {
-                    pos.x -= 1;
-                    UpdatePos();
+                    if (grid.getTileArray()[pos.x, pos.y].left.containedMonster)
+                    {
+                        grid.getTileArray()[pos.x, pos.y].left.containedMonster.damage(dmg);
+                    }
+                    else
+                    {
+                        pos.x -= 1;
+                        UpdatePos();
+                    }
                 }
             }
 
@@ -147,8 +169,15 @@ public class playerScript : MonoBehaviour
             {
                 if (grid.getTileArray()[pos.x, pos.y].right.impassable == false)
                 {
-                    pos.x++;
-                    UpdatePos();
+                    if (grid.getTileArray()[pos.x, pos.y].right.containedMonster)
+                    {
+                        grid.getTileArray()[pos.x, pos.y].right.containedMonster.damage(dmg);
+                    }
+                    else
+                    {
+                        pos.x++;
+                        UpdatePos();
+                    }
                 }
             }
 

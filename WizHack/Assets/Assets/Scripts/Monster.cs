@@ -40,4 +40,9 @@ public class Monster : MonoBehaviour
         //GET DIST FROM PLAYER
         //MOVE TOWARDS IF WITHIN CERTAIN DIST
     }
+
+    public void damage(int dmg)
+    {
+        hp -= dmg;
+    }
 }
