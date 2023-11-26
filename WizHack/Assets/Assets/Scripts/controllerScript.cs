@@ -28,7 +28,7 @@ public class controllerScript : MonoBehaviour
             {
                 var line = reader.ReadLine();
                 var items = line.Split(',');
-                char key = 'a';
+                char key = ' ';
                 for(int i = 0; i < 6; i++)
                 {
                     if(i==0)
@@ -58,18 +58,19 @@ public class controllerScript : MonoBehaviour
     void placeMonster(Vector3 location)
     {
         //List<object> Selection = monsters[options[UnityEngine.Random.Range(0,options.Count-1)]]
-        Instantiate(Monster);
+        Instantiate(Monster,this.transform);
     }
 
     public List<object> getMonster()
     {
-        List<object> Selection = monsters['a'];
+        int selected = UnityEngine.Random.Range(0, options.Count);
+        List<object> Selection = monsters[options[selected]];
         return Selection;
     }
 
     public Vector3 getLocation()
     {
         //This should give a random location pls but fornow will just return a set one, debugging lols XD
-        return new Vector3(3, 3, 0);
+        return new Vector3(2, 2, 0);
     }
 }
