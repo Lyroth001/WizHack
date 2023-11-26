@@ -21,12 +21,14 @@ public class Cavegenerator : MonoBehaviour
     public int offY;
     public bool[] mapWide;
     public Vector3Int[] coordGridWide;
+    public Tile[,] TileArray;
     
     
     
     
     private void Start()
     {
+        TileArray = new Tile[width * 2, height];
         coordGrid = new Vector3Int[(width * height)];
         int index = 0;
         for (int i = 0; i < width; i++)
@@ -44,14 +46,12 @@ public class Cavegenerator : MonoBehaviour
 
     public void drawGrid()
     {
-        Debug.Log(coordGridWide.Length);
-        Debug.Log(mapWide.Length);
-        Debug.Log(coordGrid.Length);
-        Debug.Log(map.Length);
         var wallDict = coordGrid.Zip(map, (a, b) => new { pos = a, val = b });
         
         foreach (var posval in wallDict)
         {
+            TileArray[(posval.pos.x * 2),(posval.pos.y)] = new Tile(posval.val);
+            TileArray[(posval.pos.x * 2 + 1),(posval.pos.y)] = new Tile(posval.val);
             if (posval.val)
             {
                 walls.SetTile(new Vector3Int(posval.pos.x*2 - offX, posval.pos.y - offY, 0), solid);
