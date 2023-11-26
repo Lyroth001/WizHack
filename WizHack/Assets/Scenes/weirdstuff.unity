@@ -539,8 +539,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentMap: 0
-  tileMapWalls: {fileID: 0}
-  Monster: {fileID: 0}
+  tileMapWalls: {fileID: 106946230}
+  Monster: {fileID: 1640192217365777229, guid: 45ba5a4f9c166c943a4aa9601f8b838e, type: 3}
+  Generator: {fileID: 450004025}
 --- !u!4 &1444878038
 Transform:
   m_ObjectHideFlags: 0
@@ -550,7 +551,7 @@ Transform:
   m_GameObject: {fileID: 1444878036}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5065843, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -655,7 +656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 10
   score: 0
-  dmg: 1
+  dmg: 5
   def: 1
   tileMapWalls: {fileID: 106946230}
   grid: {fileID: 450004025}

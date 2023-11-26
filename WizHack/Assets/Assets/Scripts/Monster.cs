@@ -57,8 +57,24 @@ public class Monster : MonoBehaviour
         //MOVE TOWARDS IF WITHIN CERTAIN DIST
     }
 
+    void checkHealth()
+    {
+        if (hp <= 0)
+        {
+            //die
+            cavegenerator.getTileArray()[location.x,location.y].setMonster(null);
+            Destroy(gameObject);
+        }
+    }
+
     public void damage(int dmg)
     {
+        dmg -= def;
+        if (dmg <= 0)
+        {
+            dmg = 1;
+        }
         hp -= dmg;
+        checkHealth();
     }
 }
