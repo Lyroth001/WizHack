@@ -19,6 +19,8 @@ public class playerScript : MonoBehaviour
     public TMP_Text defTxt;
 
     public Cavegenerator grid;
+
+    private char lastDir = 'u';
     // Start is called before the first frame update
     void Start()
     {
@@ -122,6 +124,8 @@ public class playerScript : MonoBehaviour
                 }
             }
 
+            lastDir = 'u';
+
         }
         
         if(Input.GetKeyDown(KeyCode.DownArrow))
@@ -142,6 +146,8 @@ public class playerScript : MonoBehaviour
                 }
             }
 
+            lastDir = 'd';
+
         }
         
         if(Input.GetKeyDown(KeyCode.LeftArrow)){
@@ -161,7 +167,9 @@ public class playerScript : MonoBehaviour
                 }
             }
 
-        
+            lastDir = 'l';
+
+
         }
         if(Input.GetKeyDown(KeyCode.RightArrow))
         {
@@ -181,15 +189,14 @@ public class playerScript : MonoBehaviour
                 }
             }
 
-        
+            lastDir = 'r';
+
+
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
-            dig('u');
-            dig('r');
-            dig('d');
-            dig('l');
+            dig(lastDir);
         }
         scoreTxt.text = "Score: " + score.ToString();
         healthTxt.text = "HP: " + hp.ToString();
