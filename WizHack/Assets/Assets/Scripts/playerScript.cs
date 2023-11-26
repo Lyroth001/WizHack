@@ -11,12 +11,29 @@ public class playerScript : MonoBehaviour
     public int dmg = 1;
     public int def = 1;
     public Tilemap tileMapWalls;
-    public Vector2Int pos = new Vector2Int(0, 0);
+    private Vector2Int pos = new Vector2Int(0, 0);
 
     public Cavegenerator grid;
     // Start is called before the first frame update
     void Start()
     {
+        bool trapped = true;
+        while (trapped)
+        {
+            if (!grid.getTileArray()[pos.x,pos.y].impassable)
+            {
+                trapped = false;
+            }
+            else if (pos.x < grid.width * 2 - 1)
+            {
+                pos.x++;
+            }
+            else
+            {
+                pos.y++;
+                pos.x = 0;
+            }
+        }
         UpdatePos();
     }
 
@@ -34,7 +51,7 @@ public class playerScript : MonoBehaviour
             {
                 if (grid.getTileArray()[pos.x, pos.y].up.impassable == false)
                 {
-                    pos.y -= 1;
+                    pos.y ++;
                     UpdatePos();
                 }
             }
@@ -42,14 +59,14 @@ public class playerScript : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.DownArrow))
         {
-            Debug.Log("keydown uparrow");
+
             if (grid.getTileArray()[pos.x, pos.y].down != null)
             {
-                Debug.Log(("notnull"));
+
                 if (grid.getTileArray()[pos.x, pos.y].down.impassable == false)
                 {
-                    Debug.Log("passable");
-                    pos.y++;
+
+                    pos.y -=1;
                     UpdatePos();
                 }
             }

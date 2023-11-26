@@ -493,8 +493,8 @@ MonoBehaviour:
   walls: {fileID: 106946230}
   solid: {fileID: 11400000, guid: 7650ec737e151204d94b1ac3c7a38e08, type: 2}
   coordGrid: []
-  offX: 80
-  offY: 40
+  offX: 0
+  offY: 0
   mapWide: 
   coordGridWide: []
 --- !u!156049354 &450004026
@@ -540,6 +540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentMap: 0
   tileMapWalls: {fileID: 0}
+  Monster: {fileID: 0}
 --- !u!4 &1444878038
 Transform:
   m_ObjectHideFlags: 0
@@ -549,7 +550,7 @@ Transform:
   m_GameObject: {fileID: 1444878036}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.024403678, y: -0.5065843, z: 0.091837}
+  m_LocalPosition: {x: 0, y: -0.5065843, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -585,7 +586,7 @@ Transform:
   m_GameObject: {fileID: 1465386205}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.18, y: -0.45, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -657,6 +658,7 @@ MonoBehaviour:
   dmg: 1
   def: 1
   tileMapWalls: {fileID: 106946230}
+  grid: {fileID: 450004025}
 --- !u!212 &1465386210
 SpriteRenderer:
   m_ObjectHideFlags: 0
