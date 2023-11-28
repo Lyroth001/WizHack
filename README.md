@@ -7,8 +7,13 @@ The game was originally made in 24 hrs for the HackSussex 2023 gamejam, but is s
 
 ## Features
 Dig!<br>
-Fight!<br>
+Fight! - or walk into your enemies<br>
 Cast an spell! -nb. More spells hopefully coming.<br>
+
+## Upcoming features?
+Loot/enemy drops
+Win and loose states
+Fishing minigame? All indie games have to have them after all
 
 ## Known issues
 Monsters dont spawn in the build. For some reason.<br>
