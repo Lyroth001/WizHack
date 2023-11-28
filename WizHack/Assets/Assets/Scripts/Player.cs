@@ -23,6 +23,10 @@ public class Player : MonoBehaviour
 
     private char lastDir = 'u';
     // Start is called before the first frame update
+    public Vector2Int getLocation()
+    {
+        return pos;
+    }
     void Start()
     {
         bool trapped = true;
@@ -201,11 +205,6 @@ public class Player : MonoBehaviour
             dig(lastDir);
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            castSpell(lastDir, 2, 6);
-        }
-
         if (Input.GetKeyDown(KeyCode.I))
         {
             spawnLooker();
@@ -221,7 +220,8 @@ public class Player : MonoBehaviour
     { 
         looker thisLooker = Instantiate(myLooker, this.transform);
         thisLooker.setTileMap(grid);
-        thisLooker.setLoc(pos);
+        Vector2Int toPass = new Vector2Int(pos.x, pos.y);
+        thisLooker.setLoc(toPass);
         thisLooker.setTileWalls(tileMapWalls);
 
 
