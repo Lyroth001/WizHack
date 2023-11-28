@@ -58,6 +58,7 @@ public class Monster : MonoBehaviour
         cavegenerator.getTileArray()[location.x,location.y].setMonster(null);
         cavegenerator.getTileArray()[pos.x,pos.y].setMonster(this);
         this.transform.position = tilemap.GetCellCenterWorld(pos);
+        
     }
 
     void move()
@@ -69,7 +70,9 @@ public class Monster : MonoBehaviour
         Vector3 toCheck = new Vector3(conv.x, conv.y, 0);
         if (GetComponent<BoxCollider2D>().bounds.Contains(toCheck))
         {
-            Debug.Log("truerheu");
+            //doesnt actually register the player for some reason, ig i done know how to use colliders lmao
+            //also respect for my first comment on this damn project lmao. Thisll be fun to look through
+            Debug.Log((string)this.monName);
             Vector3 locationCalc = new Vector3(location.x, location.y, 0);
             Vector3 movDir = locationCalc - toCheck;
             Vector3Int mov = new Vector3Int();
