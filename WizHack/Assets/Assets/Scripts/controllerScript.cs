@@ -62,6 +62,14 @@ public class controllerScript : MonoBehaviour
         
     }
 
+    public void triggerMonsters()
+    {
+        foreach(Monster mon in monList)
+        {
+            mon.setWait();
+        }
+    }
+
     //selects monster and gives it location
     void placeMonster(Vector3Int location)
     {

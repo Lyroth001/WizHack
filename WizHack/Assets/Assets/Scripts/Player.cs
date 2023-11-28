@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     public Tilemap tileMapWalls;
     public looker myLooker;
     private Vector2Int pos = new Vector2Int(0, 0);
-
+    public controllerScript Controller;
     public TileBase spellTrail;
     public TMP_Text healthTxt;
     //public TMP_Text scoreTxt;
@@ -256,11 +256,13 @@ public class Player : MonoBehaviour
                     {
                         pos.y++;
                         UpdatePos();
+                        
                     }
                 }
             }
 
             lastDir = 'u';
+            Controller.triggerMonsters();
 
         }
         
@@ -283,6 +285,7 @@ public class Player : MonoBehaviour
             }
 
             lastDir = 'd';
+            Controller.triggerMonsters();
 
         }
         
@@ -304,6 +307,7 @@ public class Player : MonoBehaviour
             }
 
             lastDir = 'l';
+            Controller.triggerMonsters();
 
 
         }
@@ -327,6 +331,7 @@ public class Player : MonoBehaviour
             }
 
             lastDir = 'r';
+            Controller.triggerMonsters();
 
 
         }

@@ -9,7 +9,7 @@ using UnityEngine.Tilemaps;
 using UnityEngine.UIElements;
 
 public class Monster : MonoBehaviour
-{
+    {
         //GET PLAYER HERE
         public char icon;
         public string monName;
@@ -23,17 +23,20 @@ public class Monster : MonoBehaviour
         private Cavegenerator cavegenerator;
         private Tilemap tilemap;
         private Player thePlayer;
+        private bool Wait = false; 
+    public void Init(Cavegenerator cavegenerator, Vector3Int location, Tilemap tilemap)
+    {
+        this.cavegenerator = cavegenerator;
+        this.location = location;
+        this.tilemap = tilemap;
+        UpdatePosition(location);
+    }
 
-        
+    public void setWait()
+    {
+        Wait = true;
+    }
 
-        public void Init(Cavegenerator cavegenerator, Vector3Int location, Tilemap tilemap)
-        {
-            this.cavegenerator = cavegenerator;
-            this.location = location;
-            this.tilemap = tilemap;
-            
-            UpdatePosition(location);
-        }
     void Start()
     {
         var data = GetComponentInParent<controllerScript>().getMonster();
@@ -49,7 +52,11 @@ public class Monster : MonoBehaviour
 
     private void Update()
     {
-        move();
+        if (Wait)
+        {
+            Wait = false;
+            move();
+        }
     }
 
     // Update is called once per frame
@@ -61,6 +68,14 @@ public class Monster : MonoBehaviour
         
     }
 
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.collider.name =="Player")
+        {
+            move();
+        }
+    }
+
     void move()
     {
         //GET DIST FROM PLAYER
@@ -68,34 +83,41 @@ public class Monster : MonoBehaviour
         
         Vector2Int conv = thePlayer.getLocation();
         Vector3 toCheck = new Vector3(conv.x, conv.y, 0);
-        if (GetComponent<BoxCollider2D>().bounds.Contains(toCheck))
-        {
+        
             //doesnt actually register the player for some reason, ig i done know how to use colliders lmao
             //also respect for my first comment on this damn project lmao. Thisll be fun to look through
-            Debug.Log((string)this.monName);
-            Vector3 locationCalc = new Vector3(location.x, location.y, 0);
-            Vector3 movDir = locationCalc - toCheck;
-            Vector3Int mov = new Vector3Int();
-            if (movDir.x > 0)
-            {
-                location.x -= 1;
-            }
-            else
-            {
-                location.x += 1;
-            }
+        Debug.Log((string)this.monName);
+        Vector3 locationCalc = new Vector3(location.x, location.y, 0);
+        Vector3 movDir = locationCalc - toCheck;
+        Vector3Int mov = new Vector3Int();
+        if (movDir.x > 0)
+        { 
+            location.x -= 1;
+        }
+        else 
+        {
+        
+            location.x += 1;
+        }
 
-            if (movDir.y > 0)
+        if (movDir.y > 0) 
+        { 
+            location.y -= 1; 
+        }
+        else 
+        { 
+            location.x += 1;
+        }
+
+        if (cavegenerator.getTileArray()[location.x, location.y].up != null)
+        {
+            if (cavegenerator.getTileArray()[location.x, location.y].up.impassable == false)
             {
-                location.y -= 1;
+                UpdatePosition(location);
             }
-            else
-            {
-                location.x += 1;
-            }
-            UpdatePosition(location);
         }
     }
+    
 
     public void setPlayer(Player newPlayer)
     {
