@@ -31,6 +31,11 @@ public class Player : MonoBehaviour
     {
         return pos;
     }
+
+    public void addScore(int val)
+    {
+        score += val;
+    }
     void Start()
     {
         bool trapped = true;

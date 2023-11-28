@@ -221,6 +221,7 @@ public class Monster : MonoBehaviour
             //die
             cavegenerator.getTileArray()[location.x,location.y].setMonster(null);
             Destroy(gameObject);
+            thePlayer.addScore(lootTable);
         }
     }
     
